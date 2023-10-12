@@ -1,0 +1,75 @@
+/* Oyinkansola Odubiro, Pd 9-10, Thursday, October 12, 2023 */
+
+/* all viewports */
+body {
+    background-color: rgb(232, 31, 105);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #b3b8ea;
+}
+
+p {
+    color: white;
+}
+
+p1 {
+    color: blue;
+}
+
+/* mobile viewport */
+@media (max-width: 600px) {
+    body {
+        background-color: #a31578;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    p1 {
+        font-size: 8px;
+    }
+}
+
+/* tablet viewport */
+@media (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    p1 {
+        font-size: 9px;
+    }
+}
+
+/* desktop viewport */
+@media (min-width: 1025px) {
+    body {
+        background-color: rgb(200, 199, 199);
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    p1 {
+        font-size: 10px;
+    }
+}
